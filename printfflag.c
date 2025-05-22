@@ -8,7 +8,7 @@ void init(){
 	setvbuf(stderr, NULL, _IONBF, 0);
 }
 
-char flag[100];
+char *flag[100];
 
 int main(){
     init();
